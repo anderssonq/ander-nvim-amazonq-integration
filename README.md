@@ -1,96 +1,87 @@
-# 🎨 Ander's Neovim Configuration
+# 🚀 Ander's Enhanced Neovim Configuration
 
-Welcome to my Neovim configuration repository! 🚀 This setup is crafted to enhance your coding experience, bringing efficiency and style to your workflow. Below is an overview of the plugins and configurations that power this Neovim setup.
+A modern, feature-rich Neovim setup optimized for web development with Vue.js, TypeScript, and enhanced productivity tools.
 
-## 📁 Folder Structure
+## ✨ Key Features
 
-- **lua/**: The heart of the configuration, containing all Lua-based setups and plugins.
-- **plugins/**: Directory housing individual plugin configurations.
+- **🤖 AI Integration**: Amazon Q for intelligent code assistance
+- **🎨 Beautiful UI**: Catppuccin theme with enhanced status lines
+- **📁 Smart File Management**: Neo-tree with Git integration
+- **🔍 Powerful Search**: Telescope fuzzy finder
+- **⚡ Auto-formatting**: Project-aware formatting with Prettier/ESLint
+- **🧠 Intelligent Completions**: LSP + snippets + AI suggestions
+- **📊 Session Management**: Automatic workspace restoration
 
-## 🔧 Plugin Configurations
+## 🛠️ Core Plugins
 
-### 1. **autopairs.lua** 🤝
-   - Auto-closing of brackets, parentheses, and quotes for a smooth coding experience.
+### Development Tools
+- **LSP Config**: TypeScript, Vue, Lua, HTML language servers
+- **None-ls**: Prettier, Stylua, Black formatting + diagnostics
+- **Treesitter**: Advanced syntax highlighting
+- **Auto-pairs**: Smart bracket/quote completion
+- **Surround**: Easy text manipulation
 
-### 2. **barbecue.lua** 🍖
-   - A blazing status line to spice up your Neovim aesthetics.
+### UI & Navigation
+- **Neo-tree**: File explorer with Git status icons
+- **Telescope**: Fuzzy file/text finder
+- **Lualine**: Informative status line
+- **Which-key**: Keybinding hints
+- **Dashboard**: Beautiful startup screen
 
-### 3. **catppuccin.lua** ☕
-   - Beautiful Catppuccin color scheme to make your coding sessions more enjoyable.
+### Productivity
+- **Amazon Q**: AI-powered coding assistance
+- **Git Blame**: Inline Git annotations
+- **Todo Comments**: Highlight TODO/FIXME comments
+- **Persistence**: Session management
+- **Toggleterm**: Integrated terminal
 
-### 4. **completions.lua** 🧠
-   - Configuration for intelligent code completions with ease.
+## 🚀 Quick Start
 
-### 5. **copilot.lua** 🤖
-   - GitHub Copilot integration for AI-powered coding suggestions.
-
-### 6. **cursorline.lua** 🎯
-   - Highlights the current line to keep your focus on track.
-
-### 7. **dashboard.lua** 🏠
-   - A stunning and functional dashboard that greets you every time you open Neovim.
-
-### 8. **git-blame.lua** 📜
-   - Git blame integration, helping you track code changes effortlessly.
-
-### 9. **indentmini.lua** 📏
-   - Enhanced indentation guides to keep your code neat and tidy.
-
-### 10. **lsp-config.lua** 🔍
-    - Language Server Protocol configuration for intelligent code navigation and editing.
-
-### 11. **lualine.lua** 📊
-    - A sleek status line to keep you informed without cluttering your screen.
-
-### 12. **neo-tree.lua** 🌳
-    - A powerful file explorer, replacing the classic NERDTree with more features.
-
-### 13. **none-ls.lua** 🛠️
-    - Configuration for null-ls, enabling additional LSP-like features for non-LSP sources.
-
-### 14. **notify.lua** 🔔
-    - Beautiful notifications that keep you informed about what’s happening.
-
-### 15. **nvim-treesitter.lua** 🌲
-    - Treesitter configuration for better syntax highlighting and code understanding.
-
-### 16. **persistence.lua** 💾
-    - Session management to restore your work exactly where you left off.
-
-### 17. **surround.lua** 🔄
-    - Easily add, delete, or change surrounding characters in pairs.
-
-### 18. **telescope.lua** 🔭
-    - A powerful fuzzy finder to quickly navigate files, buffers, and more.
-
-### 19. **todocomment.lua** ✅
-    - Highlight TODO comments in your code, ensuring nothing is forgotten.
-
-### 20. **toggleterm.lua** 🎛️
-    - Integrated terminal management within Neovim.
-
-### 21. **which-key.lua** ❓
-    - Displays possible keybindings in a popup for easier learning and remembering.
-
-### 22. **plugins.lua** 📦
-    - Centralized plugin management to keep everything organized.
-
-### 23. **vim-config.lua** ⚙️
-    - Core Vim configurations and settings that make everything tick.
-
-## 🎉 Getting Started
-
-1. **Clone the Repository**:
+1. **Clone & Install**:
    ```bash
    git clone https://github.com/anderssonq/neovim-config.git ~/.config/nvim
-   ```
 
-2. **Install Plugins**:
-   Open Neovim and let the magic happen! All necessary plugins will be installed automatically.
 
-3. **Enjoy Your New Setup**:
-   Start coding with your freshly configured Neovim and enjoy the productivity boost!
+Copy
 
-## 🌟 Contributing
+Insert at cursor
+Set Environment Variables:
 
-Feel free to fork this repository and make it your own. Contributions and suggestions are always welcome!
+export AMAZONQ_SSO_URL='your-sso-url'
+
+Copy
+
+Insert at cursor
+bash
+Launch Neovim: Plugins install automatically
+
+⌨️ Key Bindings
+Key	Action
+<leader>e	Toggle file explorer
+<leader>ff	Find files
+<leader>fg	Live grep
+<leader>lf	Format code
+<leader>qc	Open Amazon Q chat
+<leader>ca	Code actions
+🎯 Optimized For
+Vue.js development with TypeScript
+
+Modern JavaScript workflows
+
+Git-based projects
+
+AI-assisted coding
+
+Multi-language support
+
+📦 Auto-installed Tools
+Language servers (TypeScript, Vue, Lua, HTML)
+
+Formatters (Prettier, Stylua, Black)
+
+Git integration
+
+Project-aware configurations
+
+Crafted for maximum productivity and coding enjoyment ⚡
+```
