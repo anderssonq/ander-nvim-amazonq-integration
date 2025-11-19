@@ -1,6 +1,6 @@
 # 🚀 Ander's Enhanced Neovim Configuration
 
-A modern, feature-rich Neovim setup optimized for web development with Vue.js, TypeScript, and enhanced productivity tools.
+A modern, feature-rich Neovim setup optimized for web development with Vue.js, TypeScript, and enhanced productivity tools for my work, we are using amazonq so, this is a new folk from my nvim config haha.
 
 ## ✨ Key Features
 
@@ -37,22 +37,17 @@ A modern, feature-rich Neovim setup optimized for web development with Vue.js, T
 
 ## 🚀 Quick Start
 
-1. **Clone & Install**:
-   ```bash
-   git clone https://github.com/anderssonq/neovim-config.git ~/.config/nvim
+**Clone & Install**:
+   
+```bash
+git clone https://github.com/anderssonq/neovim-config.git ~/.config/nvim
+```
+and.... Set Environment Variables:
 
-
-Copy
-
-Insert at cursor
-Set Environment Variables:
-
+```bash
 export AMAZONQ_SSO_URL='your-sso-url'
+```
 
-Copy
-
-Insert at cursor
-bash
 Launch Neovim: Plugins install automatically
 
 ⌨️ Key Bindings
@@ -63,6 +58,7 @@ Key	Action
 <leader>lf	Format code
 <leader>qc	Open Amazon Q chat
 <leader>ca	Code actions
+
 🎯 Optimized For
 Vue.js development with TypeScript
 
@@ -84,4 +80,3 @@ Git integration
 Project-aware configurations
 
 Crafted for maximum productivity and coding enjoyment ⚡
-```
